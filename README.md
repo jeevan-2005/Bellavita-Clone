@@ -6,7 +6,7 @@ Welcome to the Bellavita Ecommerce Website repository!
 This repository contains the codebase for a sophisticated ecommerce website clone inspired by Bellavita. With a focus on luxury and convenience, website offers users a seamless shopping experience complete with login/signup functionality, intuitive navigation, and smart filtering options.
 
 ## Deploy Link
-The E-commerce demo can be [viewed online here](bellavita-clone.vercel.app).
+The E-commerce demo can be [viewed online here](https://bellavita-clone.vercel.app/).
 
 ## Features
 
