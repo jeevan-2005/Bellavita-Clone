@@ -1,0 +1,40 @@
+.CheckOutCart{
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.checkOutPageBox{
+    width: 480px;
+    padding: 20px ;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.CheckOutCart::-webkit-scrollbar-track {
+  padding: 2px 0;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+.CheckOutCart::-webkit-scrollbar {
+  width: 7px;
+}
+
+.CheckOutCart::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(91, 83, 83, 0.3);
+    background-color: rgb(185, 178, 178);
+    height: 100px;
+}
+
+.totalPriceBox{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+    margin-top: 10px;
+}

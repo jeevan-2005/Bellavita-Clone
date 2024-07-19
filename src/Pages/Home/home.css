@@ -1,0 +1,124 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.imageContainer{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.crazyDeals {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  margin-bottom: 40px;
+} 
+.deals {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.deals div img {
+  height: 250px;
+  width: 380px;
+}
+.deals div {
+  text-align: center;
+}
+.deals div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.crazyDeals h1 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.deals div h4 {
+  position: relative;
+}
+
+.deals div h4::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: rgb(118, 97, 97);
+  transition: all 0.5s;
+}
+.deals div h4:hover::before {
+  width: 100%;
+}
+
+.whyBellavita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.whyBellavita h1 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.whyBellavita .inWhyBellavita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inWhyBellavita div img {
+  margin: auto;
+  height: 60px;
+}
+
+.inWhyBellavita div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  letter-spacing: 1px;
+}
+.inWhyBellavita div p {
+  font-size: 12px;
+  color: rgb(123, 124, 125);
+  word-spacing: 2px;
+}
+
+.offersImage {
+  margin: 60px 0;
+}
+
+.lastImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* logo slider */
+.logoSlider{
+  overflow-x: hidden;
+}

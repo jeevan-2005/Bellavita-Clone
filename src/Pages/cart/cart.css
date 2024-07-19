@@ -1,0 +1,66 @@
+.cartSlider p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: rgb(234, 96, 37);
+}
+.cartSlider {
+  padding: 0;
+  margin: 0;
+}
+
+.drawer {
+  padding: 0 25px;
+}
+
+.checkOut::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 0%;
+  transition: height 0.3s ease-in-out;
+  background-color: rgb(255, 255, 255);
+}
+
+.checkOut:hover {
+  color: rgb(0, 0, 0);
+  z-index: 2;
+}
+
+.checkOut:hover::before {
+  height: 100%;
+  z-index: -1;
+}
+
+.cartBoxItem {
+  padding: 0;
+  margin: 10px 0px 0 0;
+}
+.cartBoxItem .title {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.cartBoxItem .desc {
+  font-size: 9px;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.cartBoxItem img {
+  width: 80px;
+  height: 80px;
+}
+
+.oldPrice {
+  font-size: 13px;
+  color: rgb(128, 128, 128);
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.newPrice{
+  font-weight: 600;
+}

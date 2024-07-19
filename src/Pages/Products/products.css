@@ -1,0 +1,35 @@
+.products {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.mainProDiv {
+  margin: 20px 0 30px 0;
+}
+
+.mainProDiv h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  /* margin: 10px 0; */
+}
+
+.ProductSpinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.pageBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 30px;
+}
