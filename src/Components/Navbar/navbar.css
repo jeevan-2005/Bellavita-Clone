@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Twentieth Century" sans-serif;
+}
+
+.Navbar {
+  background-color: rgba(51, 51, 51, 0.099);
+  color: rgb(255, 255, 255);
+  padding: 5px 20px;
+  text-align: center;
+  position: sticky;
+  /* color: black; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  margin-top: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.scrollNavbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: height 0.3s ease-in-out;
+  background-color: rgb(255, 255, 255);
+  z-index: -2;
+  box-shadow: 0 0 2px 2px rgb(212, 206, 206);
+}
+
+.scrolled .links ul li a {
+  color: rgb(0, 0, 0);
+}
+
+.logo img {
+  width: 140px;
+  margin-right: 100px;
+}
+
+.search-logo-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 190px;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBar input {
+  background: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding: 4px 6px;
+}
+.searchBar input::placeholder {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-size: 14px;
+}
+.searchIcon {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding: 8px 3px 8px 3px;
+}
+.searchBar input:focus {
+  outline: none;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 20px;
+}
+.loginIcon,
+.cartIcon {
+  transition: all ease 0.3s;
+}
+
+.loginIcon:hover,
+.cartIcon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.cartCount {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  font-size: 10px;
+  margin-top: -22px;
+  margin-left: -38px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  z-index: 5;
+}
+
+.links {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.links ul li {
+  list-style: none;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  position: relative;
+}
+
+.links a::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+
+.links a:hover::before {
+  width: 100%;
+}

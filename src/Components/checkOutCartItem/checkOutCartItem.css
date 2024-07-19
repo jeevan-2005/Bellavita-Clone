@@ -1,0 +1,30 @@
+.CheckOutcartItem {
+  width: 90%;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+.CheckOutcartItem .titleCheckOut {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.CheckOutcartItem img {
+  width: 80px;
+  height: 80px;
+}
+
+.CheckOutcartItem .descCheckOut {
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+}
+
+.newPriceCheckOut {
+  font-weight: 600;
+}
+
+.CheckOutcartItem .quantity {
+  font-weight: 500;
+  font-size: 12px;
+}
