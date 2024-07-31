@@ -21,19 +21,19 @@ Smart Filters: Refine your search results by category to find exactly what you'r
 Here are screenshots that show the E-commerce demo application in use.
 
 **Home Page**
-![Screenshot 2024-04-29 220724](https://github.com/jeevan-2005/Bellavita-clone/assets/134385083/c5aeb864-4e25-44ee-a6ae-523b7c65eb09)
+![bellavitaSS](https://github.com/user-attachments/assets/ba62846a-e808-499e-9627-0a576f91410b)
 
 **Products Page**
-![Screenshot 2024-04-29 220739](https://github.com/jeevan-2005/Bellavita-clone/assets/134385083/3cf84d2f-5ff2-4f28-bdd8-6bcab14cae5b)
+![Screenshot 2024-07-31 165517](https://github.com/user-attachments/assets/97d37a73-05a3-432e-9ca1-0214529b31a4)
 
 **Single Product Page**
-![Screenshot 2024-04-29 220823](https://github.com/jeevan-2005/Bellavita-clone/assets/134385083/ac4a7658-c65d-4e23-a3c8-dc22e7158718)
+![Screenshot 2024-07-31 165657](https://github.com/user-attachments/assets/1f31cd30-f4b1-4d52-b2dd-edd932c9854d)
 
 **Cart page**
-![Screenshot 2024-04-29 220754](https://github.com/jeevan-2005/Bellavita-clone/assets/134385083/162f6180-e087-4c18-bf2b-d35ae5fc4dd4)
+![Screenshot 2024-07-31 165556](https://github.com/user-attachments/assets/4af6e5d3-84ee-4f93-b0b5-eabe91ce48bc)
 
 **CheckOut Page**
-![Screenshot 2024-04-29 220838](https://github.com/jeevan-2005/Bellavita-clone/assets/134385083/c73b8623-44d8-4c0a-8a04-2744d6241656)
+![Screenshot 2024-07-31 165631](https://github.com/user-attachments/assets/d750bbff-068e-4409-9cad-43700cbb4ff2)
 
 
 ## Getting Started
